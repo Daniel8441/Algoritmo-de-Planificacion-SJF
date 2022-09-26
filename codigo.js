@@ -48,7 +48,6 @@ const Mostrar = ()=>{
     trPrincipal.appendChild(thIndice);
     fragmento.appendChild(trPrincipal);
 
-
     let tiempoSalida = 0;
     let mediaServicio = 0;
     let mediaEspera = 0;
@@ -178,7 +177,6 @@ const Animar = ()=>{
         fragmento.appendChild(divContenedor);
     }
     divAnimacion.appendChild(fragmento);
-
     
     let marginLeft = 0;
     for (let j = 0; j < cantidadProcesos; j++) {
@@ -199,7 +197,6 @@ const Animar = ()=>{
 
     divAnimacion.appendChild(fragmento);
 
-    
     const spanReset2 = document.createElement("span");
     spanReset2.innerHTML = "RESETEAR TODO"
     const reset2 = document.createElement("a");
