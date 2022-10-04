@@ -18,7 +18,6 @@ table {
 }
 
 td, th {
-    /* border: 1px solid #dddddd; */
     border: 1px solid #000;
     text-align: center;
     padding: 8px;
@@ -92,6 +91,63 @@ a span {
     align-items: center;
 }
 
+.parrafo-modal {
+    font-size: 25px;
+    font-family: var(--letraGeneral);
+}
+
+.input-modal {
+    width: 40px;
+    font-size: 25px;
+    margin: 0 10px;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid blue;
+}
+
+.modal-capa{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.462);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-hiden {
+    display: none;
+}
+
+.modal-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    align-items: center;
+}
+
+.section-principal__modal-Content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-principal__modal-Content div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-content-style {
+    margin: 5px 0;
+}
 
 .section-principal__label {
     font-family: var(--letraGeneral);
@@ -140,6 +196,7 @@ a span {
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
+    background-color: #fff;
 }
 
 .section-animacion-style {

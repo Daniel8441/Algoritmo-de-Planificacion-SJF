@@ -13,12 +13,17 @@
 </head>
 <body>
     <section id="section-principal" class="section-principal">
-        <h1 class="section-principal__titulo Titulo-general">Algoritmo de Planificacion SJF<span>&#160;</span></h1>
-        <form class="section-principal__form">
-            <label class="section-principal__label">Ingrese la cantidad de procesos:</label>
-            <input class="section-principal__input" type="number" id="Procesos">
-        </form>
-        <a href="#section-table" id="Mostrar" onclick="Mostrar()" class="buttom"><span>INICIAR</span></a>
+            <h1 class="section-principal__titulo Titulo-general">Algoritmo de Planificacion SJF<span>&#160;</span></h1>
+            <form class="section-principal__form">
+                <label class="section-principal__label">Ingrese la cantidad de procesos:</label>
+                <input class="section-principal__input" type="number" id="Procesos">
+            </form>
+            <a href="#section-table" id="btn-Mostrar" class="buttom btn-Mostrar"><span>INICIAR</span></a>
+            <div class="section-principal__modal">
+                <div class="section-principal__modal-Container">
+                    <div class="section-principal__modal-Content"></div>
+                </div>
+            </div>
     </section>
 
     <section id="section-table" class="section-table">
